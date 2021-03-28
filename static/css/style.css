@@ -1,0 +1,34 @@
+body {
+    background-color: rgba(231,154,142, .3);
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.display-4, p {
+    font-family: 'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
+    color: darkred;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#lineChart {
+    width: 100%;
+    height: 500px;
+}
+
+#artistBars {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+#genreBars {
+    width: 50%;
+    height: 500px;
+    margin-left: 50%;
+
+}
