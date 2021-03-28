@@ -32,15 +32,17 @@
     <div class="jumbotron">
       <h1 class="display-4">Red Velvet Metrics</h1>
       <p>Created by<a href="https://dfeelz.github.io/" target="_blank"><img src="../static/images/dFeelz_logo.PNG" style="width: 50px; height: 70px;"></a> for <a href="https://www.youtube.com/channel/UC2KPxM2iwn-ci2NGSAX8moA" target="_blank"><img src="../static/images/cluckcluckpop_logo.png" style="width: 80px; height: 80px;"></a></p>
-      <p><a href="https://www.instagram.com/dfeelz360/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" style="height: 30px; width: 30px;"></a> <a href="https://github.com/dFeelz" target="_blank"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" style="height: 30px; width: 30px;"></a></p>
+      <p><a href="https://www.instagram.com/dfeelz360/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" style="height: 30px; width: 30px;"></a> <a href="https://github.com/dFeelz/RedVelvetDashboard" target="_blank"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" style="height: 30px; width: 30px;"></a></p>
       <hr class="my-4">
     </div>
-
-    <br>
     
+    <br>
 
     <!--Line Chart detailing songs released by year-->
     <div id="lineChart"></div>
+
+    <!--Bar Graph of songs and YouTube views-->
+    <div id="viewBars"></div>
 
     <div>
       <!--Bar Graph showing number of songs Red Velvet members have outside the main group-->
@@ -55,15 +57,10 @@
 
 </body>
 
-  <!-- API key -->
-  <!-- <script type="text/javascript" src="config.js"></script> -->
-
   <!-- JS -->
   <script src="{{ url_for('static', filename='js/lineChart.js') }}"></script>
   <script src="{{ url_for('static', filename='js/ArtistSongsBar.js') }}"></script>
   <script src="{{ url_for('static', filename='js/GenreSongsBar.js') }}"></script>
-
-
-
+  <script src="{{ url_for('static', filename='js/SongViewsBar.js') }}"></script>
 
 </html>
