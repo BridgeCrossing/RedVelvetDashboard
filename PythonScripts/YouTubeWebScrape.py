@@ -55,8 +55,7 @@ def SongViewsDF(Playlist_URL):
                             'https://www.youtube.com/watch?v=0Pokw-ouRqI',
                             'https://www.youtube.com/watch?v=Ct0i0lDrfDM',
                             'https://www.youtube.com/watch?v=GZeILCFk9w0',
-                            'https://www.youtube.com/watch?v=wCWoUUWwdqg',
-                            'https://www.youtube.com/watch?v=GTcM3qCeup0']
+                            'https://www.youtube.com/watch?v=wCWoUUWwdqg']
 
     for song in other_RV_songs_list:
         playlist_songs_list.append(song)
